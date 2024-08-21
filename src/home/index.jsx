@@ -1,6 +1,5 @@
 import Header from "@/components/custom/Header";
 import { AtomIcon, Edit, Share2 } from "lucide-react";
-import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import TextInput from "./../components/TextInput";
@@ -29,9 +28,9 @@ const Home = () => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </a>
@@ -55,9 +54,9 @@ const Home = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </a>
@@ -236,7 +235,7 @@ const Home = () => {
                 <CustomButton
                   title="Subscribe"
                   containerStyles={
-                    "block bg-pink-600 text-white px-5 py-2.5 text-md rounded hover:bg-blue-800 focus:potline-none flex-col items-center mt-2 "
+                    "block bg-pink-600 text-white px-5 py-2.5 text-md rounded hover:bg-pink-400 focus:potline-none flex-col items-center mt-2 "
                   }
                 />
               </div>
